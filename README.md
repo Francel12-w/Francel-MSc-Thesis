@@ -36,6 +36,15 @@ $ pip install pyenzyme
   ```bash
 $ pip install ipywidgets
 ```
+## Python Scripts for OT-2 liquid handler:
+This section contains Python scripts for the OT-2 liquid handler to automate the experimental workflow. The files included are:
+
+- Script for initiating with mastermix
+- Scripts for adding mastermix to plate
+- Scripts for adding substrates
+- Scripts for preparing mastermix
+
+For each of these components listed above, six Python scripts are provided since six reactions were performed on a single 96-well plate. These scripts can be visualized and edited using any Python integrated development environmen. However, PyCharm Community Edition was used for editing these scripts for this project. Once theses scripts are finalized, it should be uploaded onto the Opentrons Desktop App, to allow the OT2 liquid handler to execute the scripts to perform the respective tasks for each component.
 
 ## CoaBC (PPCS) Processing and fitting: 
 This section contains files related to the CoaBC (PPCS) processing and fitting workflows. These files include:
