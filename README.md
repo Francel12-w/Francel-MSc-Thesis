@@ -56,7 +56,12 @@ This section contains code files related to the PPAT processing and fitting work
 The same general workflow was followed for PPAT as used for CoaBC. So we start by including an example code on how to perform initial rate selection is provided, along with an Excel sheet from an experimental run for PPAT. This example code was included to illustrate the process of selecting initial rates and normalizing them to total protein concentration, which was performed for each experimental run. After initial rate selection and normalization to protein concentration, parameter fitting and identifiability analysis were performed. We have included Jupyter Notebooks for parameter fitting and identifiability analysis, along with an Excel sheet containing the combined initial rates for PPAT. 
 
 ## Geneartion of EnzymeML documents:
+The final step is to generate EnzymeML documents using PyEnzyme software. We have included files for generating EnzymeML documents which contains the following:
 
-
+- Bi-Uni-Uni-Bi-Ping-Pong binding mechanism (PPCS)
+- Random binding mechanism (PPCS)
+- Sequential binding mechanism (PPCS)
+- PPAT
+Each file contains the code that is required to generate an EnzymeML document, capturing both metadata and experimental data using PyEnzyme software. Each of the files listed above also includes the raw experimental measurements (excel sheets) and the final output, which is an Omex file. This workflow ensures that all data and metadata are structured and stored in a standardized format to help ensure the reproducibility and repeatibility of this study. 
 
 
