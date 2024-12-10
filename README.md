@@ -71,6 +71,7 @@ The final step is to generate EnzymeML documents using PyEnzyme software. We hav
 - Random binding mechanism (PPCS)
 - Sequential binding mechanism (PPCS)
 - PPAT
+
 Each file contains the code that is required to generate an EnzymeML document, capturing both metadata and experimental data using PyEnzyme software. Each of the files listed above also includes the raw experimental measurements (excel sheets) and the final output, which is an Omex file. This workflow ensures that all data and metadata are structured and stored in a standardized format to help ensure the reproducibility and repeatibility of this study. 
 
 
