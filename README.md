@@ -2,40 +2,29 @@
 This repository (Francel-MSc-Thesis) contains Python code files that were designed for linear regression, parameter fitting, identifiability analysis and the generation of EnzymeML documents, which were all executed using Jupyter Notebooks. This document provides step-by-step instructions to set up your Anaconda environment, install the necessary libraries, and explains each file's purpose along with instructions on how to execute the code presented in this repository.
 
 ## Installation:
-To successfully run the code presented in this repository, it must be executed using Jupyter Notebook and requires the installation of the following libraries:
+To successfully run the code presented in this repository, you need to install the required libraries. For convenience, you can install all the required libararies using the following single pip install command:
 
-1. Matplotlib: For plotting of figures, install it with:
-  ```bash
-$ pip install matplotlib
+```bash
+$ pip install pandas, lmfit, identifiability, pyenzyme, ipywidgets, jupyterlab, pysces, ipympl
 ```
-2. NumPy: Essential for numerical computations, which can be installed via:
-  ```bash
-$ pip install numpy
-```
-3. SciPy: Used for optimization and scientific functions, install it using:
-  ```bash
-$ pip install scipy
-```
-4. Pandas: For data manipulation, install it through:
-  ```bash
-$ pip install pandas
-```
-5. Lmfit: Essential for curve fitting and parameter estimation, install it by running:
-  ```bash
-$ pip install lmfit
-```
-6. Identifiability: For identifiability analysis of parameter estimations, which can be istalled with:
-  ```bash
-$ pip install identifiability
-```
-7. PyEnzyme: For generating and handling EnzymeML documents, install it with:
-  ```bash
-$ pip install pyenzyme
-```
-8. IPyWidgets: For interactive widgets in Jupyter Notebooks, install it using:
-  ```bash
-$ pip install ipywidgets
-```
+Below is a description of each library:
+
+- Pandas: For data manipulation and analysis tools.
+
+- Lmfit: Essential for curve fitting and parameter estimation.
+
+- Identifiability: Perform identifiability analysis for parameter estimations.
+  
+- PyEnzyme: For generating and handling EnzymeML documents.
+ 
+- IPyWidgets: For interactive widgets in Jupyter Notebooks.
+
+- JupyterLab: A web-based interactive development environment for Jupyter notebooks.
+
+- PySCeS: A Python modeling and simulation tool for systems biology.
+
+- IPyMPL: For integrating Matplotlib plots as interactive widgets in Jupyter Notebooks.
+
 ## Python Scripts for OT-2 liquid handler:
 This section contains Python scripts for the OT-2 liquid handler to automate the experimental workflow. The files included are:
 
