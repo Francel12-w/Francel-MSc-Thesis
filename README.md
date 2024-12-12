@@ -5,7 +5,7 @@ This repository (Francel-MSc-Thesis) contains Python code files that were design
 To successfully run the code presented in this repository, you need to install the required libraries. For convenience, you can install all the required libararies using the following single pip install command:
 
 ```bash
-$ pip install pandas, lmfit, identifiability, pyenzyme, ipywidgets, jupyterlab, pysces, ipympl
+$ pip install pandas lmfit identifiability pyenzyme ipywidgets jupyterlab pysces ipympl
 ```
 Below is a description of each library:
 
